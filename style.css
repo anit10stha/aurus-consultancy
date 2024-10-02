@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* page1 starts */
+.page1{
+    height: 100vh;
+    width: 100%;
+    background-color: aqua;
+}
+
+.cursor{
+    height: 20vh;
+    width: 20vh;
+    border-radius: 50%;
+    background-color: rgba(214, 41, 41, 0.795);
+    position: absolute;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+
+.nav-top{
+    height: 6vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 5rem;
+    background-color: #060C60;
+    color: rgb(231, 231, 231);
+}
+
+.social{
+    display: flex;
+    gap: 2rem;
+    padding-left: 25rem;
+}
+
+.nav-down{
+    height: 12vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 2.5rem;
+    padding: 0 5rem;
+}
+
+.nav-down img{
+    height: 100%;
+    margin-right: 5rem;
+}
+
+.nav-down button{
+    padding: 2vh 3vh;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(255, 153, 0);
+    color: white;
+    margin-left: 5rem;
+}
+
+.page1-bg img{
+    height: 82vh;
+    width: 100%;
+}
+
+.all-content{
+    height: 15vh;
+    width: 80%;
+    background-color: black;
+    position: relative;
+    left: 10%;
+    bottom: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  
+}
+
+.box1, .box2, .box3, .box4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: white;
+}
+
+.box1{
+    height: 100%;
+    width: 25%;
+    background-color: tomato;
+}
+
+.box2{
+    height: 100%;
+    width: 25%;
+    background-color: rgb(12, 168, 51);
+}
+
+.box3{
+    height: 100%;
+    width: 25%;
+    background-color: rgb(230, 198, 20);
+}
+
+.box4{
+    height: 100%;
+    width: 25%;
+    background-color: rgb(10, 212, 185);
+}
+/* page1 ends */
+
+
+
+/* page2 starts */
+.page2{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(214, 40, 40, 0.747);
+}
+/* page2 ends */
+
+
+
+
+
+
+/* page3 starts */
+.page3{
+    height: 100vh;
+    width: 100%;
+    /* background-color: rgb(26, 156, 21); */
+}
+
+.page3-hd h1{
+    padding: 3rem;
+}
+
+/* page2 ends */
